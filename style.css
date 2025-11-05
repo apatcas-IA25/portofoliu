@@ -1,0 +1,43 @@
+h1,h2 {
+	color: #fff;
+}
+
+table,td,th, ol {
+	border: 2px solid blue;
+	background-color: white;
+}
+
+body {
+	background-image: url("images/utcn.jpg");
+}
+
+div, h4, p {
+	background-color: #d92518;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.border {
+	border-style: solid;
+}
+
+#rounded-img {
+	border-radius: 90px;
+}
+
+
+img:hover {
+  opacity: 0.5;
+}
+
+ol {
+	list-style-type: lower-roman;
+	list-style-position: inside;
+}
+
+p {
+	font-size: 30px;
+}
+
