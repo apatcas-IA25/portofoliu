@@ -1,43 +1,33 @@
-h1,h2 {
-	color: #fff;
-}
-
-table,td,th, ol {
-	border: 2px solid blue;
-	background-color: white;
-}
-
-body {
-	background-image: url("images/utcn.jpg");
-}
-
-div, h4, p {
-	background-color: #d92518;
+h1,h2,p {
+	color: red;
+	font-size: 40px;
+	background-color: #fff;
 }
 
 .text-center {
 	text-align: center;
 }
 
-.border {
-	border-style: solid;
-}
-
 #rounded-img {
-	border-radius: 90px;
+	border-radius: 30px;
 }
 
+table,td,th {
+	border: 2px dashed #A0F412;
+	background-color: #fff;
+}
 
-img:hover {
-  opacity: 0.5;
+body {
+	background-image: url("images/utcn.jpg");
+}
+
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url("images/cat.jpeg") 30 round;
 }
 
 ol {
 	list-style-type: lower-roman;
-	list-style-position: inside;
+	background-color: #A0F412;
 }
-
-p {
-	font-size: 30px;
-}
-
